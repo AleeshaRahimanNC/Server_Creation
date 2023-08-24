@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Details</title>
+</head>
+
+<body>
+    <h1 style="color: red;"><span><em>Contact Details</em></span></h1>
+
+    <legend>User Info</legend>
+    <form>
+        <fieldset>
+            <br>
+            <div>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname">
+            </div>
+            <br>
+            <div>
+                <label for="Address">Address</label>
+                <textarea name="Info" id="Address" cols="30" rows="5"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="Dist">District</label>
+                <input type="text" id="Dist">
+                <label for="State">State</label>
+                <input type="text" id="State">
+                <label for="Country">Country</label>
+                <input type="text" id="Country">
+            </div>
+            <br>
+            <div>
+
+                <label for="pcode">Pin Code</label>
+                <input type="tel" name="pcode" id="pcode" maxlength="6">
+                <label for="Mno">Mobile No:</label>
+                <input type="tel" name="number" id="Mno" maxlength="10">
+                <label for="Email">Email ID</label>
+                <input type="email" name="id" id="Email">
+            </div>
+            <br>
+            <div>
+                <label for="dob">DOB</label>
+                <input type="date" name="bday" id="dob">
+                <label for="passwrd">Password</label>
+                <input type="password" name="lock" id="passwrd">
+
+            </div>
+
+            <p class="gender">Gender:</p>
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="Gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="Gender" id="female">
+                <label for="na">NA</label>
+                <input type="radio" name="Gender" id="na">
+            </div>
+            <br>
+            <div>
+                <button style="background-color: powderblue;" id="button">Save</button>
+                <button style="background-color: powderblue;" id="button">Submit</button>
+
+            </div>
+        </fieldset>
+
+        <script src="./main.js"></script>
+
+</body>
+
+</html>

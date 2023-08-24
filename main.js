@@ -18,7 +18,7 @@ http.createServer((req, res) => {
             }
         });
     } else if (urlp === '/signup') {
-        fs.readFile('./asset/signup.html', "utf-8", (err, page) => {
+        fs.readFile('./signup.html', "utf-8", (err, page) => {
             if (err) {
                 res.write("Something went wrong");
                 res.end();
@@ -31,7 +31,7 @@ http.createServer((req, res) => {
             }
         });
     } else if (urlp === '/login') {
-        fs.readFile('./asset/login.html', "utf-8", (err, page) => {
+        fs.readFile('./login.html', "utf-8", (err, page) => {
             if (err) {
                 res.write("Something went wrong");
                 res.end();
@@ -44,7 +44,7 @@ http.createServer((req, res) => {
             }
         });
     } else if (urlp === '/contact') {
-        fs.readFile('./asset/contact.html', "utf-8", (err, page) => {
+        fs.readFile('./contact.html', "utf-8", (err, page) => {
             if (err) {
                 res.write("Something went wrong");
                 res.end();
